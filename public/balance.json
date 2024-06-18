@@ -1,0 +1,253 @@
+{
+    "type": "balance_sheet",
+    "message": {
+        "analysis": "<b>Balance Sheet Analysis</b>\n<h2>Period: 17/1/2024 - 17/1/2024</h2>\n\n<p>Dear CEO,</p>\n\n<p>After analyzing your company's balance sheet for the period of 17/1/2024 to 17/1/2024, here are some key insights and recommendations to help you steer the company:</p>\n\n<h3>Accounts Receivable (Debiteuren)</h3>\n<ul>\n<li>The accounts receivable balance has increased from €12,000 in Period 1 to €24,602.25 in Period 2.</li>\n<li>This increase suggests that more sales are being made on credit, which can potentially impact cash flow if customers do not pay on time.</li>\n<li>Recommendation: Monitor the aging of accounts receivable closely and implement strategies to encourage timely payments from customers.</li>\n</ul>\n\n<h3>Deferred Revenue (Uitgestelde omzet)</h3>\n<ul>\n<li>Deferred revenue has increased slightly from €2,984.52 in Period 1 to €3,019.09 in Period 4.</li>\n<li>This indicates that the company is receiving payments in advance for goods or services to be delivered in the future.</li>\n<li>Recommendation: Ensure that the company has the capacity to fulfill these obligations and recognize the revenue appropriately.</li>\n</ul>\n\n<h3>Bank Balance (Bank1)</h3>\n<ul>\n<li>The bank balance is €12,100 in Period 1, which appears to be a healthy amount of cash on hand.</li>\n<li>Recommendation: Monitor the bank balance closely to ensure that there is sufficient cash to cover operational expenses and any upcoming obligations.</li>\n</ul>\n\n<h3>Liabilities</h3>\n<ul>\n<li>The balance sheet shows zero balances for accounts payable (Crediteuren), employee payments (Medewerkersbetalingen), and payroll taxes (Af te dragen loonheffing).</li>\n<li>Recommendation: Double-check to ensure that these zero balances are accurate and that there are no outstanding liabilities that need to be recorded.</li>\n</ul>\n\n<p>Overall, the balance sheet appears to be in a relatively stable position for the given period. However, it is essential to monitor accounts receivable, fulfill deferred revenue obligations, maintain a healthy cash balance, and ensure that all liabilities are accurately recorded.</p>\n\n<p>Please let me know if you have any further questions or require additional analysis.</p>\n\n<p>Best regards,<br>\nYour Senior Financial Analyst</p>",
+        "data": [
+            {
+                "id": "95254907-8135-433f-aa9a-27f3a3ee5b01",
+                "description": "Assets",
+                "code": "1",
+                "children": [
+                    {
+                        "id": "37e43aa9-b8c2-41e5-b55f-1c41bda52dac",
+                        "description": "Intangible assets",
+                        "code": "10"
+                    },
+                    {
+                        "id": "09de81fe-a2a3-4092-88f5-2a8040b8f6af",
+                        "description": "Short term debt",
+                        "code": "14",
+                        "children": [
+                            {
+                                "Amount": 24602.25,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -10073.25,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": 9680,
+                                "ReportingPeriod": 4,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": 24209.0
+                    },
+                    {
+                        "id": "b17614a0-6fca-4619-8b53-67acd62b5481",
+                        "description": "Tangible assets",
+                        "code": "11"
+                    },
+                    {
+                        "id": "fc6ba757-4805-4b74-8d6b-84a4fee977dd",
+                        "description": "Cash at bank and in hand",
+                        "code": "16"
+                    },
+                    {
+                        "id": "54e9be8b-1cb2-4ddb-b49d-8c04d3d7673f",
+                        "description": "Financial assets",
+                        "code": "12"
+                    },
+                    {
+                        "id": "50d01968-9666-47b7-90d5-dd58471eeae1",
+                        "description": "Stocks",
+                        "code": "13",
+                        "children": [
+                            {
+                                "Amount": -10,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": -10
+                    }
+                ]
+            },
+            {
+                "id": "fc0d2997-2c62-45c5-8cea-427a4b0594e7",
+                "description": "Liabilities",
+                "code": "2",
+                "children": [
+                    {
+                        "id": "9d868ed3-9f10-4fdd-8b52-97bb75073455",
+                        "description": "Debts",
+                        "code": "22",
+                        "children": [
+                            {
+                                "Amount": -16840,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -3200,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -3200,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": -23240
+                    },
+                    {
+                        "id": "7e809910-822c-42f8-994d-bb4cb9ce03f6",
+                        "description": "Capital and reserves",
+                        "code": "20",
+                        "children": [
+                            {
+                                "Amount": -100,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": -100
+                    }
+                ]
+            },
+            {
+                "description": "Non Linked",
+                "children": [
+                    {
+                        "id": "309217169",
+                        "description": "Af te dragen BTW hoog",
+                        "code": "1500",
+                        "children": [
+                            {
+                                "Amount": -4268.25,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -1680,
+                                "ReportingPeriod": 4,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": -5948.25
+                    },
+                    {
+                        "id": "309217283",
+                        "description": "Uitgestelde omzet",
+                        "code": "2300",
+                        "children": [
+                            {
+                                "Amount": -9015.48,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": 5624.56,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": 5695.46,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -2304.54,
+                                "ReportingPeriod": 4,
+                                "ReportingYear": 2024
+                            }
+                        ]
+                    },
+                    {
+                        "id": "309217368",
+                        "description": "Uitgestelde kosten",
+                        "code": "2302",
+                        "children": [
+                            {
+                                "Amount": 12021.86,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -3978.14,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -4021.86,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -4021.86,
+                                "ReportingPeriod": 4,
+                                "ReportingYear": 2024
+                            }
+                        ]
+                    },
+                    {
+                        "id": "309217375",
+                        "description": "Te vorderen BTW",
+                        "code": "1520",
+                        "children": [
+                            {
+                                "Amount": 840,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": 840
+                    },
+                    {
+                        "id": "309217398",
+                        "description": "Bank1",
+                        "code": "1101",
+                        "children": [
+                            {
+                                "Amount": 8900,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": 10073.25,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": 18973.25
+                    },
+                    {
+                        "id": "309217419",
+                        "description": "Af te dragen loonheffing",
+                        "code": "1700",
+                        "children": [
+                            {
+                                "Amount": -2300,
+                                "ReportingPeriod": 1,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -2300,
+                                "ReportingPeriod": 2,
+                                "ReportingYear": 2024
+                            },
+                            {
+                                "Amount": -2300,
+                                "ReportingPeriod": 3,
+                                "ReportingYear": 2024
+                            }
+                        ],
+                        "closing_balance": -6900
+                    }
+                ]
+            }
+        ]
+    }
+}
